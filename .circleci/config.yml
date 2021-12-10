@@ -9,6 +9,6 @@ jobs:
       - checkout
       - matlab/install:
           release: R2021a
-      - matlab/run-tests
-          source-folder: src     
+      - matlab/run-tests:
+          source-folder: src  
       
