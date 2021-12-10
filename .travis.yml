@@ -1,0 +1,11 @@
+language: matlab
+script: matlab -batch 'disp("Hello world");pwd;ver'
+matlab:
+    - latest
+    - R2020a
+matrix:
+   include:
+     - dist: bionic # 18.04
+        os: linux
+     - dist: xenial # 16.04
+        os: linux
