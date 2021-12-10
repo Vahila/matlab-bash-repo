@@ -10,3 +10,5 @@ jobs:
       - matlab/install
       - matlab/run-command: 
           command: disp('Hello World')
+      - matlab/run-tests:
+          source-folder: src
