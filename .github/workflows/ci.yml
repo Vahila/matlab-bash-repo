@@ -16,6 +16,7 @@ jobs:
       - name: Run Tests
         uses: matlab-actions/run-tests@v1
         with:
+          source-folder: src
           test-results-junit: generated_reports/testResults.xml
           test-results-pdf: generated_reports/TestResults.pdf
       - name: upload Artifacts
