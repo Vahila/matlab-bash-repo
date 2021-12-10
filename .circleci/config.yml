@@ -10,5 +10,5 @@ jobs:
       - matlab/install:
           release: R2021a
       - matlab/run-tests
-          test-results-junit: test-results/matlab/results.xml      
+          source-folder: src     
       
