@@ -1,2 +1,2 @@
-**This is a sample repo to test 'Selecting Test folder' feature**
+**This is a sample repo that can be used for bashing**
 
