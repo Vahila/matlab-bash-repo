@@ -1,5 +1,5 @@
 orbs:
-  matlab: mathworks/matlab@x.y
+  matlab: mathworks/matlab@0
 version: 2.1
 jobs:
   build:
