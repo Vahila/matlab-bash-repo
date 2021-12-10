@@ -19,4 +19,6 @@ jobs:
       - store_test_results:
           path: test-results
       - codecov/upload:
-          file: code-coverage/coverage.xml     
+          file: code-coverage/coverage.xml
+      - matlab/run-command:
+          command: ver
