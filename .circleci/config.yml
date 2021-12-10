@@ -9,8 +9,8 @@ jobs:
       - checkout
       - matlab/install:
           release: R2021a
-      - matlab/run-tests:
+      - matlab/run-tests
           source-folder: src
-      - matlab/run-command: 
-          command: disp('Hello World')
+          test-results-junit: test-results/matlab/results.xml
+          code-coverage-cobertura: code-coverage/coverage.xml
       
