@@ -1,5 +1,5 @@
 language: matlab
-script: matlab -batch 'disp("Hello world");pwd;ver'
+script: matlab -batch 'ver'
 matlab:
     - latest
     - R2020a
